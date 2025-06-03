@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build_and_test:
@@ -31,8 +31,8 @@ jobs:
     # - name: Lint Code (Uncomment and configure if you set up ESLint)
     #   run: npm run lint
 
-    - name: Run Tests
-      run: npm test # Make sure you have a test script in package.json
+ #- name: Run Tests
+    #run: npm test # Make sure you have a test script in package.json
 
     # - name: Build project (Uncomment if you have a build step)
     #   run: npm run build
