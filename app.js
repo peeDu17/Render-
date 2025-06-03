@@ -1,10 +1,12 @@
+// Remove this line
+// const N8N_WEBHOOK_URL = 'https://your-n8n-domain.com/webhook/devops-form';
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const N8N_WEBHOOK_URL = 'https://your-n8n-server.com/webhook/devops-form'; // replace with your actual webhook URL
+const N8N_WEBHOOK_URL = 'https://pra123.app.n8n.cloud/webhook-test/devops-form'; // replace with your actual webhook URL
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
